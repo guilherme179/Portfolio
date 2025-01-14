@@ -9,6 +9,7 @@
   <meta name="description" content="Portfolio Template for Developer" />
 
   <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" type="image/x-icon" href="assets/png/icon_g.png">
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -179,8 +180,7 @@
       <h2 class="heading heading-sec heading-sec__mb-bg">
         <span class="heading-sec__main">Projetos</span>
         <span class="heading-sec__sub">
-          Nesta seção, apresento alguns dos projetos nos quais tive a oportunidade de participar enquanto atuava na Tel
-          Contact Center, contribuindo com soluções eficientes e impactantes para os desafios da empresa.
+          Nesta seção, apresento alguns dos projetos nos quais tenho contribuído como desenvolvedor na Tel Contact Center, ajudando a criar soluções eficientes e impactantes para os desafios da empresa.
         </span>
       </h2>
 
@@ -195,7 +195,7 @@
             <p class="projects__row-content-desc">
               Sistema integrador de várias areas e informações rápidas para os operadores e supervisores.
             </p>
-            <a href="./project-1.html" class="btn btn--med btn--theme dynamicBgClr" target="_blank">Veja mais</a>
+            <a href="./projeto-ultron.html" class="btn btn--med btn--theme dynamicBgClr" target="_blank">Veja mais</a>
           </div>
         </div>
         <div class="projects__row">
@@ -209,22 +209,46 @@
             <p class="projects__row-content-desc">
               Sistema de premiações e incentivo operacional da Tel.
             </p>
-            <a href="./project-2.html" class="btn btn--med btn--theme dynamicBgClr" target="_blank">Veja mais</a>
+            <a href="./projeto-tel_premia.html" class="btn btn--med btn--theme dynamicBgClr" target="_blank">Veja mais</a>
           </div>
         </div>
         <div class="projects__row">
           <div class="projects__row-img-cont">
-            <img src="./assets/jpeg/project-mockup-example.jpeg" alt="Software Screenshot" class="projects__row-img"
+            <img src="./assets/png/dashboard_avalia_tel.png" alt="Software Screenshot" class="projects__row-img"
               loading="lazy" />
           </div>
           <div class="projects__row-content">
-            <h3 class="projects__row-content-title">Project 3</h3>
+            <h3 class="projects__row-content-title">Avalia Tel</h3>
             <p class="projects__row-content-desc">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-              facilis tempora, explicabo quae quod deserunt eius sapiente
-              praesentium.
+              Um sistema desenvolvido para o setor de RH, permitindo que os mesmos criem formulários personalizados para que gestores avaliem suas equipes. 
             </p>
-            <a href="./project-3.html" class="btn btn--med btn--theme dynamicBgClr" target="_blank">Case Study</a>
+            <a href="./project-avalia_tel.html" class="btn btn--med btn--theme dynamicBgClr" target="_blank">Veja Mais</a>
+          </div>
+        </div>
+        <div class="projects__row">
+          <div class="projects__row-img-cont">
+            <img src="./assets/png/dashboard_suporte_mis.png" alt="Software Screenshot" class="projects__row-img"
+              loading="lazy" />
+          </div>
+          <div class="projects__row-content">
+            <h3 class="projects__row-content-title">Suporte Mis</h3>
+            <p class="projects__row-content-desc">
+              Um sistema de chamados desenvolvido para o setor MIS da Tel, permitindo que colaboradores de outros setores abram chamados sempre que precisarem de suporte.
+            </p>
+            <a href="./projeto-suporte_mis.html" class="btn btn--med btn--theme dynamicBgClr" target="_blank">Veja Mais</a>
+          </div>
+        </div>
+        <div class="projects__row">
+          <div class="projects__row-img-cont">
+            <img src="./assets/png/dashboard_mitra.png" alt="Software Screenshot" class="projects__row-img"
+              loading="lazy" />
+          </div>
+          <div class="projects__row-content">
+            <h3 class="projects__row-content-title">Mitra reorientações</h3>
+            <p class="projects__row-content-desc">
+              Um sistema desenvolvido para gerenciar reorientações dos operadores, auxiliando o setor de qualidade na aplicação de feedbacks. 
+            </p>
+            <a href="./projeto-mitra.html" class="btn btn--med btn--theme dynamicBgClr" target="_blank">Veja Mais</a>
           </div>
         </div>
       </div>
@@ -233,31 +257,23 @@
   <section id="contact" class="contact sec-pad dynamicBg">
     <div class="main-container">
       <h2 class="heading heading-sec heading-sec__mb-med">
-        <span class="heading-sec__main heading-sec__main--lt">Contact</span>
+        <span class="heading-sec__main heading-sec__main--lt">Contato</span>
         <span class="heading-sec__sub heading-sec__sub--lt">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
-          tempora explicabo quae quod deserunt eius sapiente
+          Entre em contato comigo preenchendo o formulário abaixo.
         </span>
       </h2>
       <div class="contact__form-container">
-        <form action="#" class="contact__form">
+        <form class="contact__form" id="contactForm">
           <div class="contact__form-field">
-            <label class="contact__form-label" for="name">Name</label>
-            <input required placeholder="Enter Your Name" type="text" class="contact__form-input" name="name"
-              id="name" />
+            <label class="contact__form-label" for="name">Nome</label>
+            <input required placeholder="Digite Seu Nome" type="text" class="contact__form-input" name="name" id="name" />
           </div>
           <div class="contact__form-field">
-            <label class="contact__form-label" for="email">Email</label>
-            <input required placeholder="Enter Your Email" type="text" class="contact__form-input" name="email"
-              id="email" />
-          </div>
-          <div class="contact__form-field">
-            <label class="contact__form-label" for="message">Message</label>
-            <textarea required cols="30" rows="10" class="contact__form-input" placeholder="Enter Your Message"
-              name="message" id="message"></textarea>
+            <label class="contact__form-label" for="message">Mensagem</label>
+            <textarea required cols="30" rows="10" class="contact__form-input" placeholder="Digite Sua Mensagem" name="message" id="message"></textarea>
           </div>
           <button type="submit" class="btn btn--theme contact__btn">
-            Submit
+            Enviar
           </button>
         </form>
       </div>

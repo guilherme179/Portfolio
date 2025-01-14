@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Projeto Tel Premia</title>
+  <meta name="description" content="Case study page of Project" />
+  <link rel="icon" type="image/x-icon" href="assets/png/icon_g.png">
+
+  <link rel="stylesheet" href="css/style.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__content">
+      <div class="header__logo-container">
+        <div class="header__logo-img-cont">
+          <img src="./assets/jpeg/guilherme_img.jpg" alt="Ram Maheshwari Logo Image" class="header__logo-img" />
+        </div>
+        <span class="header__logo-sub">Guilherme Souza</span>
+      </div>
+      <div class="header__main">
+        <ul class="header__links">
+          <li class="header__link-wrapper">
+            <a href="./index.html" class="header__link"> Inicio </a>
+          </li>
+          <li class="header__link-wrapper">
+            <a href="./index.html#about" class="header__link"> Sobre </a>
+          </li>
+          <li class="header__link-wrapper">
+            <a href="./index.html#projects" class="header__link">
+              Projetos
+            </a>
+          </li>
+          <li class="header__link-wrapper">
+            <a href="./index.html#contact" class="header__link"> Contato </a>
+          </li>
+        </ul>
+        <div class="header__main-ham-menu-cont">
+          <img src="./assets/svg/ham-menu.svg" alt="hamburger menu" class="header__main-ham-menu" />
+          <img src="./assets/svg/ham-menu-close.svg" alt="hamburger menu close"
+            class="header__main-ham-menu-close d-none" />
+        </div>
+      </div>
+    </div>
+    <div class="header__sm-menu">
+      <div class="header__sm-menu-content">
+        <ul class="header__sm-menu-links">
+          <li class="header__sm-menu-link">
+            <a href="./index.html"> Inicio </a>
+          </li>
+
+          <li class="header__sm-menu-link">
+            <a href="./index.html#about"> Sobre </a>
+          </li>
+
+          <li class="header__sm-menu-link">
+            <a href="./index.html#projects"> Projetos </a>
+          </li>
+
+          <li class="header__sm-menu-link">
+            <a href="./index.html#contact"> Contato </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <section class="project-cs-hero">
+    <div class="project-cs-hero__content">
+      <h1 class="heading-primary">Tel Premia</h1>
+      <div class="project-cs-hero__info">
+        <p class="text-primary">
+          Um sistema de recompensas desenvolvido para os operadores da Tel Contact Center, onde os resultados dos seus
+          indicadores de desempenho são convertidos em pontos diariamente. Esses pontos podem ser acumulados e
+          utilizados para resgatar diversas recompensas, promovendo engajamento, reconhecimento e motivação no ambiente
+          de trabalho.
+        </p>
+      </div>
+    </div>
+  </section>
+  <section class="project-details">
+    <div class="main-container">
+      <div class="project-details__content">
+        <div class="project-details__showcase-img-cont">
+          <img src="./assets/png/dashboard_tel_premia.png" alt="Project Image" class="project-details__showcase-img" />
+        </div>
+        <div class="project-details__content-main">
+          <div class="project-details__desc">
+            <h3 class="project-details__content-title">Overview do Projeto</h3>
+            <p class="project-details__desc-para">
+              O <strong>Tel Premia</strong> é um sistema de recompensas desenvolvido para engajar e motivar os
+              operadores da Tel Contact Center, oferecendo um ambiente de reconhecimento baseado em desempenho. O
+              sistema permite que os operadores acompanhem seus resultados diários, visualizem o extrato de ganhos de
+              moedas e utilizem os pontos acumulados para resgatar prêmios em campanhas personalizadas.
+            </p>
+            <p class="project-details__desc-para">
+              O backend do projeto foi implementado em <strong>PHP</strong>, contando com um micro serviço especializado
+              no processamento das compras. Este serviço utiliza a mensageria do <strong>RabbitMQ</strong> para
+              gerenciar filas de pedidos de resgate, processando cada solicitação de forma eficiente e segura. Além
+              disso, os resultados de desempenho são processados e imputados no sistema diariamente, garantindo que os
+              operadores tenham acesso atualizado às suas métricas e recompensas.
+            </p>
+            <p class="project-details__desc-para">
+              A estrutura do sistema foi projetada para otimizar o desempenho, com processos automatizados que garantem
+              fluidez nas operações e um ambiente confiável para o gerenciamento de recompensas. O <strong>Tel
+                Premia</strong> não apenas facilita o acesso às informações para os operadores, mas também promove maior
+              engajamento, reconhecendo o esforço e os resultados individuais.
+            </p>
+          </div>
+          <div class="project-details__tools-used">
+            <h3 class="project-details__content-title">Ferramentas Utilizadas</h3>
+            <div class="skills">
+              <div class="skills__skill">Php</div>
+              <div class="skills__skill">Slim Framework</div>
+              <div class="skills__skill">RabbitMQ</div>
+              <div class="skills__skill">MySQL</div>
+              <div class="skills__skill">Docker</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="main-footer">
+    <div class="main-container">
+      <div class="main-footer__upper">
+        <div class="main-footer__row main-footer__row-1">
+          <h2 class="heading heading-sm main-footer__heading-sm">
+            <span>Social</span>
+          </h2>
+          <div class="main-footer__social-cont">
+            <a target="_blank" href="https://www.linkedin.com/in/guilherme-souza-414472219/" rel="noreferrer" href="#">
+              <img class="main-footer__icon" src="./assets/png/linkedin-ico.png" alt="icon" />
+            </a>
+            <a target="_blank" href="https://github.com/guilherme179" rel="noreferrer" href="#">
+              <img class="main-footer__icon" src="./assets/png/github-ico.png" alt="icon" />
+            </a>
+          </div>
+        </div>
+        <div class="main-footer__row main-footer__row-2">
+          <h4 class="heading heading-sm text-lt">Guilherme Souza</h4>
+          <p class="main-footer__short-desc">
+            Desenvolvedor backend especializado em criar soluções escaláveis, eficientes e seguras para o
+            desenvolvimento web.
+          </p>
+        </div>
+      </div>
+
+      <div class="main-footer__lower">
+        &copy; Copyright 2021. Made by
+        <a rel="noreferrer" target="_blank" href="https://rammaheshwari.com">Ram Maheshwari</a>
+      </div>
+    </div>
+  </footer>
+  <script src="./index.js"></script>
+</body>
+
+</html>

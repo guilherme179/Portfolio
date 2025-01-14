@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Avalia Tel</title>
+    <meta name="description" content="Case study page of Project" />
+    <link rel="icon" type="image/x-icon" href="assets/png/icon_g.png">
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <div class="header__logo-container">
+          <div class="header__logo-img-cont">
+            <img src="./assets/jpeg/guilherme_img.jpg" alt="Ram Maheshwari Logo Image" class="header__logo-img" />
+          </div>
+          <span class="header__logo-sub">Guilherme Souza</span>
+        </div>
+        <div class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper">
+              <a href="./index.html" class="header__link"> Inicio </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#about" class="header__link"> Sobre </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#projects" class="header__link">
+                Projetos
+              </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#contact" class="header__link"> Contato </a>
+            </li>
+          </ul>
+          <div class="header__main-ham-menu-cont">
+            <img src="./assets/svg/ham-menu.svg" alt="hamburger menu" class="header__main-ham-menu" />
+            <img src="./assets/svg/ham-menu-close.svg" alt="hamburger menu close"
+              class="header__main-ham-menu-close d-none" />
+          </div>
+        </div>
+      </div>
+      <div class="header__sm-menu">
+        <div class="header__sm-menu-content">
+          <ul class="header__sm-menu-links">
+            <li class="header__sm-menu-link">
+              <a href="./index.html"> Inicio </a>
+            </li>
+  
+            <li class="header__sm-menu-link">
+              <a href="./index.html#about"> Sobre </a>
+            </li>
+  
+            <li class="header__sm-menu-link">
+              <a href="./index.html#projects"> Projetos </a>
+            </li>
+  
+            <li class="header__sm-menu-link">
+              <a href="./index.html#contact"> Contato </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section class="project-cs-hero">
+      <div class="project-cs-hero__content">
+        <h1 class="heading-primary">Avalia Tel</h1>
+        <div class="project-cs-hero__info">
+          <p class="text-primary">
+            Um sistema criado para o setor de RH da Tel Contact Center, permitindo que gestores avaliem suas equipes por meio de formulários personalizados. O Avalia Tel é uma ferramenta essencial para identificar áreas de melhoria, orientar treinamentos e promover o desenvolvimento contínuo dos colaboradores, fortalecendo a eficiência organizacional.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="project-details">
+      <div class="main-container">
+        <div class="project-details__content">
+          <div class="project-details__showcase-img-cont">
+            <img
+              src="./assets/png/dashboard_avalia_tel.png"
+              alt="Project Image"
+              class="project-details__showcase-img"
+            />
+          </div>
+          <div class="project-details__content-main">
+            <div class="project-details__desc">
+              <h3 class="project-details__content-title">Visão Geral do Projeto</h3>
+              <p class="project-details__desc-para">
+                O <strong>Avalia Tel</strong> é um sistema desenvolvido em parceria com o setor de RH da Tel Contact Center, com o objetivo de otimizar e automatizar o processo de criação e aplicação de formulários para avaliação de equipes. Anteriormente, o RH utilizava o Google Forms, onde era necessário inserir manualmente a hierarquia de supervisores, tornando o processo trabalhoso e demorado. Com o Avalia Tel, o sistema busca automaticamente a hierarquia dos supervisores, eliminando esse esforço manual.
+              </p>
+              <p class="project-details__desc-para">
+                Além disso, o Avalia Tel oferece personalização de regras de negócio, uma funcionalidade que não era possível no Google Forms. O sistema foi projetado para ajudar o RH a identificar pontos de melhoria, destacar pontos fortes e otimizar os treinamentos, promovendo a constante evolução operacional da Tel.
+              </p>
+              <p class="project-details__desc-para">
+                O backend do projeto foi implementado com <strong>NestJS</strong> e comunicação <strong>REST</strong>, utilizando um banco de dados relacional para armazenar informações de avaliações. O sistema também conta com um serviço de envio de e-mails automatizados, alertando supervisores que ainda precisam avaliar suas equipes. Outra funcionalidade chave é o cálculo de aderência, que permite ao RH monitorar a taxa de avaliações realizadas em diferentes sites e cobrar ações para garantir que supervisores concluam suas tarefas.
+              </p>
+            </div>
+            <div class="project-details__tools-used">
+              <h3 class="project-details__content-title">Ferramentas Usadas</h3>
+              <div class="skills">
+                <div class="skills__skill">TypeScript</div>
+                <div class="skills__skill">Node</div>
+                <div class="skills__skill">Nest</div>
+                <div class="skills__skill">REST</div>
+                <div class="skills__skill">Python</div>
+                <div class="skills__skill">MySQL</div>
+                <div class="skills__skill">Docker</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="main-footer">
+      <div class="main-container">
+        <div class="main-footer__upper">
+          <div class="main-footer__row main-footer__row-1">
+            <h2 class="heading heading-sm main-footer__heading-sm">
+              <span>Social</span>
+            </h2>
+            <div class="main-footer__social-cont">
+              <a target="_blank" href="https://www.linkedin.com/in/guilherme-souza-414472219/" rel="noreferrer" href="#">
+                <img class="main-footer__icon" src="./assets/png/linkedin-ico.png" alt="icon" />
+              </a>
+              <a target="_blank" href="https://github.com/guilherme179" rel="noreferrer" href="#">
+                <img class="main-footer__icon" src="./assets/png/github-ico.png" alt="icon" />
+              </a>
+            </div>
+          </div>
+          <div class="main-footer__row main-footer__row-2">
+            <h4 class="heading heading-sm text-lt">Guilherme Souza</h4>
+            <p class="main-footer__short-desc">
+              Desenvolvedor backend especializado em criar soluções escaláveis, eficientes e seguras para o
+              desenvolvimento web.
+            </p>
+          </div>
+        </div>
+  
+        <div class="main-footer__lower">
+          &copy; Copyright 2021. Made by
+          <a rel="noreferrer" target="_blank" href="https://rammaheshwari.com">Ram Maheshwari</a>
+        </div>
+      </div>
+    </footer>
+    <script src="./index.js"></script>
+  </body>
+</html>

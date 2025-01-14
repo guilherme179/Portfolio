@@ -702,3 +702,37 @@ textarea {
   to {
     opacity: 0;
     top: 27px; } }
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px; /* Espaçamento entre os itens */
+  justify-content: center; /* Centraliza os itens */
+}
+
+.skills__skill {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f4f4f4; /* Cor de fundo suave */
+  border: 1px solid #ddd; /* Borda leve */
+  border-radius: 8px; /* Arredondamento */
+  padding: 10px 15px; /* Espaçamento interno */
+  min-width: 120px; /* Tamanho mínimo */
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  transition: transform 0.2s ease; /* Animação para hover */
+}
+
+.skills__skill:hover {
+  transform: scale(1.05); /* Leve aumento no hover */
+  cursor: alias;
+}
+
+.skills__logo {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px; /* Espaçamento entre o ícone e o texto */
+  border-radius: 10px; /* Arredonda as bordas da imagem */
+  background-color: #fff; /* Fundo para destacar o logo */
+}

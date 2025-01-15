@@ -42,7 +42,6 @@ document.getElementById('contactForm').addEventListener('submit', function (e) {
 
   // Captura os valores dos campos do formulário
   const name = document.getElementById('name').value;
-  const email = document.getElementById('email').value;
   const message = document.getElementById('message').value;
 
   // Formata a mensagem para o WhatsApp

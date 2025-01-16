@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <title>Projeto Ultron</title>
+  <title>Premiando</title>
   <meta name="description" content="Case study page of Project" />
   <link rel="icon" type="image/x-icon" href="assets/png/icon_g.png">
 
@@ -74,12 +74,13 @@
   </header>
   <section class="project-cs-hero">
     <div class="project-cs-hero__content">
-      <h1 class="heading-primary">Ultron</h1>
+      <h1 class="heading-primary">Premiando</h1>
       <div class="project-cs-hero__info">
         <p class="text-primary">
-          Um sistema integrador projetado para centralizar informações de diferentes áreas da Tel Contact Center,
-          oferecendo acesso rápido e eficiente a dados críticos para operadores e supervisores. Simplificando processos,
-          otimizando o desempenho e melhorando a experiência de uso no dia a dia.
+          Um sistema de recompensas desenvolvido para os operadores, onde os resultados dos seus
+          indicadores de desempenho são convertidos em pontos diariamente. Esses pontos podem ser acumulados e
+          utilizados para resgatar diversas recompensas, promovendo engajamento, reconhecimento e motivação no ambiente
+          de trabalho.
         </p>
       </div>
     </div>
@@ -88,43 +89,39 @@
     <div class="main-container">
       <div class="project-details__content">
         <div class="project-details__showcase-img-cont">
-          <img src="./assets/png/dashboard_ultron.png" alt="Project Image" class="project-details__showcase-img" />
+          <img src="./assets/png/dashboard_premiando.png" alt="Project Image" class="project-details__showcase-img" />
         </div>
         <div class="project-details__content-main">
           <div class="project-details__desc">
             <h3 class="project-details__content-title">Overview do Projeto</h3>
             <p class="project-details__desc-para">
-              O <strong>Ultron</strong> é um sistema integrador desenvolvido para a Tel Contact Center, com o objetivo
-              de centralizar e unificar informações provenientes de diversas áreas da empresa, resultados individuais e
-              sistemas internos. A ideia principal é fornecer aos operadores uma plataforma única e eficiente para
-              acessar todos os dados relevantes, reduzindo a necessidade de navegar por vários sistemas distintos.
-
-              <br><br>
-              O backend do projeto foi implementado utilizando <strong>Node.js</strong> e <strong>GraphQL</strong>, com
-              foco em performance e escalabilidade. O sistema conta com um serviço feito em <strong>Python</strong> que
-              realiza a coleta e integração de dados de diferentes fontes, unificando essas informações em um único
-              local. Para otimizar o desempenho e evitar sobrecarga nos bancos de dados, utilizamos um mecanismo de
-              cache, que armazena temporariamente os resultados das consultas, reduzindo o número de requisições feitas
-              diretamente às bases de dados.
-
-              <br><br>
-              Essa abordagem não apenas melhora a eficiência do sistema, mas também garante uma experiência mais rápida
-              e simplificada para os operadores, ajudando a integrar áreas críticas da Tel e facilitar a tomada de
-              decisões com informações centralizadas.
+              O <strong>Premiando</strong> é um sistema de recompensas desenvolvido para engajar e motivar os
+              operadores, oferecendo um ambiente de reconhecimento baseado em desempenho. O
+              sistema permite que os operadores acompanhem seus resultados diários, visualizem o extrato de ganhos de
+              moedas e utilizem os pontos acumulados para resgatar prêmios em campanhas personalizadas.
+            </p>
+            <p class="project-details__desc-para">
+              O backend do projeto foi implementado em <strong>PHP</strong>, contando com um micro serviço especializado
+              no processamento das compras. Este serviço utiliza a mensageria do <strong>RabbitMQ</strong> para
+              gerenciar filas de pedidos de resgate, processando cada solicitação de forma eficiente e segura. Além
+              disso, os resultados de desempenho são processados e imputados no sistema diariamente, garantindo que os
+              operadores tenham acesso atualizado às suas métricas e recompensas.
+            </p>
+            <p class="project-details__desc-para">
+              A estrutura do sistema foi projetada para otimizar o desempenho, com processos automatizados que garantem
+              fluidez nas operações e um ambiente confiável para o gerenciamento de recompensas. O
+              <strong>Premiando</strong> não apenas facilita o acesso às informações para os operadores, mas também
+              promove maior
+              engajamento, reconhecendo o esforço e os resultados individuais.
             </p>
           </div>
           <div class="project-details__tools-used">
-            <h3 class="project-details__content-title">Ferramentas Usadas</h3>
+            <h3 class="project-details__content-title">Ferramentas Utilizadas</h3>
             <div class="skills">
-              <div class="skills__skill">TypeScript</div>
-              <div class="skills__skill">Node</div>
-              <div class="skills__skill">Nest</div>
-              <div class="skills__skill">GraphQL</div>
-              <div class="skills__skill">TypeORM</div>
-              <div class="skills__skill">Python</div>
-              <div class="skills__skill">Sql Server</div>
+              <div class="skills__skill">Php</div>
+              <div class="skills__skill">Slim Framework</div>
+              <div class="skills__skill">RabbitMQ</div>
               <div class="skills__skill">MySQL</div>
-              <div class="skills__skill">Redis</div>
               <div class="skills__skill">Docker</div>
             </div>
           </div>

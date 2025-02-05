@@ -54,3 +54,29 @@ document.getElementById('contactForm').addEventListener('submit', function (e) {
   // Redireciona para o WhatsApp com a mensagem
   window.open(`https://wa.me/${whatsappNumber}?text=${whatsappMessage}`, '_blank');
 });
+
+document.getElementById('contactForm').addEventListener('submit', function (e) {
+  e.preventDefault(); // Impede o envio padrão do formulário
+
+  // Captura os valores dos campos do formulário
+  const name = document.getElementById('name').value;
+  const message = document.getElementById('message').value;
+
+  // Formata a mensagem para o WhatsApp
+  const whatsappMessage = `Olá, meu nome é ${encodeURIComponent(name)}.%0A` +
+    `Aqui está minha mensagem:%0A${encodeURIComponent(message)}`;
+
+  // Número do WhatsApp para o qual a mensagem será enviada (adicione seu número com código do país)
+  const whatsappNumber = "5575991949118"; // Substitua pelo seu número do WhatsApp
+
+  // Redireciona para o WhatsApp com a mensagem
+  window.open(`https://wa.me/${whatsappNumber}?text=${whatsappMessage}`, '_blank');
+});
+
+function Whatsapp(){
+  const whatsappMessage = `Olá! Encontrei seu portfólio e gostaria de conversar melhor sobre o seu trabalho. Podemos bater um papo?`;  // Número do WhatsApp para o qual a mensagem será enviada (adicione seu número com código do país)
+  const whatsappNumber = "5575991949118"; // Substitua pelo seu número do WhatsApp
+
+  // Redireciona para o WhatsApp com a mensagem
+  window.open(`https://wa.me/${whatsappNumber}?text=${whatsappMessage}`, '_blank');
+}
